@@ -1,2 +1,2 @@
 ## Node-Express 
-> NodeJS-Express demo for a course API
+> NodeJS-Express demo for courses API
