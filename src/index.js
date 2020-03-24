@@ -1,9 +1,9 @@
-const courses = require('./routes/courses');
-const config = require('config');
-const helmet = require('helmet');
-const morgan = require('morgan');
-const express = require('express');
-const logger = require('./middleware/logger');
+import courses from '../routes/courses';
+import config from 'config';
+import helmet from 'helmet';
+import morgan from 'morgan';
+import express from 'express';
+import {log} from '../middleware/logger';
 const app = express();
 
 
@@ -24,7 +24,7 @@ app.use(express.static('public'));
 
 
 /* custom middleware */
-app.use(logger);
+app.use(log);
 app.use((req, res, next) => {
   console.log('Authenticating...');
   next();

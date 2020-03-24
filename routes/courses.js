@@ -1,6 +1,7 @@
- const express = require('express');
- const Joi = require('@hapi/joi');
- const router = express.Router();
+  import express from 'express';
+  import Joi from '@hapi/joi';
+  const router = express.Router();
+
 
  const courses = [
   { id: 1, name: 'Physics'},
@@ -60,4 +61,4 @@ function validateCourse(course){
   return schema.validate(course);
 }
 
-module.exports = router;
+export default router;
