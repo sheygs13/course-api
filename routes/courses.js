@@ -1,13 +1,7 @@
   import express from 'express';
   import Joi from '@hapi/joi';
   const router = express.Router();
-
-
- const courses = [
-  { id: 1, name: 'Physics'},
-  { id: 2, name: 'Algorithms'},
-  { id: 3, name: 'Fuzzy Logic' }
- ]
+  import courses from '../db/testData';
 
 
 router.get('/', (req,res) => {
