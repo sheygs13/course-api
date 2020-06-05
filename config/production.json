@@ -1,5 +1,5 @@
 {
- "name": "Node-Express - Production",
+ "name": "node-express - Production",
  "mail": {
   "host": "prod-mail-server"
  }

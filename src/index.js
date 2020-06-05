@@ -7,7 +7,7 @@ import {log} from '../middleware/logger';
 const app = express();
 
 
-// configuration
+/* configuration */
 console.log(`Application Name:  ${config.get('name')}`);
 
 /* 3rd-party middleware */
@@ -37,8 +37,8 @@ app.get('/', (req,res) => {
 });
 
 
-// set port environment variable
+/* set port environment variable */
 const port = process.env.PORT || 4000;
 
-// listen at port for the sender
+/* listen at port for the sender */
 app.listen(port, () => console.log(`Listening on port ${port}...`));
