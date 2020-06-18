@@ -1,10 +1,10 @@
 {
-  "name": "express-demo",
+  "name": "course-api",
   "version": "1.0.0",
   "description": "Building APIs using node.js & express",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/index.js",
+    "dev": "nodemon --exec babel-node ./index.js",
     "build": "babel src -d  lib"
   },
   "author": "sheygs13",
