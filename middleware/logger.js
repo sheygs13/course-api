@@ -1,4 +1,4 @@
-export default function logger(req, res, next){
- console.log('Logging...');
- next();
+export default function logger(req, res, next) {
+  console.log("Logging...");
+  next();
 }

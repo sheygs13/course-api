@@ -1,13 +1,15 @@
 ## Installation
 
+An example repo showing how to build RESTful APIs with Node.js & Express.
+
 ```shell
-   # clone the repo
+   # Clone the repo
    git clone  https://github.com/sheygs13/course-api.git
 
-   # install dependencies
+   # Install dependencies
    npm install
 
-   # start the app
+   # Start the app
    npm run dev
 
 ```
